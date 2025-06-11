@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "backend/src/main.py": {
+      "runtime": "python3.9"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/backend/src/main.py"
+    }
+  ]
+}
